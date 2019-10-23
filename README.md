@@ -35,4 +35,6 @@ Actions text:
 
 <br>Screenshots
 
-
+![Media type](https://github.com/proffust/ZabbixToClickhouseAlertIntegration/blob/master/DeepinScreenshot_select-area_20191023185348.png)
+![Action1](https://github.com/proffust/ZabbixToClickhouseAlertIntegration/blob/master/DeepinScreenshot_select-area_20191023185305.png)
+![Action2](https://github.com/proffust/ZabbixToClickhouseAlertIntegration/blob/master/DeepinScreenshot_select-area_20191023185252.png)
