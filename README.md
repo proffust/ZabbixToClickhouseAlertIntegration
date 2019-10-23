@@ -18,18 +18,18 @@ ENGINE = ReplacingMergeTree(RecoveryClock)
 PARTITION BY toISOWeek(Date)
 ORDER BY Eventid
 ```
-<br>Installation
-    1. Go to alert script location
-    2. Create venv for script
-        ```python3 -m venv venv_click```
-    3. Activate venv and install clickhouse_client module
-        ```source venv_click/bin/activate
-        pip install clickhouse-driver
-        deactivate```
-    4. Download script and edit path to venv
-    5. Add media type
-    6. Add media to Super Admin user
-    7. Add actions
+<br>Installation:
+1. Go to alert script location
+1. Create venv for script
+    ```python3 -m venv venv_click```
+1. Activate venv and install clickhouse_client module
+    ```source venv_click/bin/activate
+    pip install clickhouse-driver
+    deactivate```
+1. Download script and edit path to venv
+1. Add media type
+1. Add media to Super Admin user
+1. Add actions
 
 Actions text:
 <br>Problem
