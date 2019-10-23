@@ -25,7 +25,7 @@ ORDER BY Eventid
 1. Activate venv and install clickhouse_client module
     ```source venv_click/bin/activate
     pip install clickhouse-driver
-    deactivate```
+    deactivate
 1. Download script and edit path to venv
 1. Add media type
 1. Add media to Super Admin user
