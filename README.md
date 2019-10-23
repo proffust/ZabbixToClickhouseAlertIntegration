@@ -52,11 +52,10 @@ Actions text:
 }
 ```
 
-<br>Screenshots
-
-![Media type](https://imgur.com/tK0EHQk)
-![Action problem](https://imgur.com/7aA1TSt)
-![Action resolved](https://imgur.com/XmBfgw6)
+<br>Screenshots<br>
+<img src="https://i.imgur.com/XmBfgw6.png">
+<img src="https://i.imgur.com/7aA1TSt.png">
+<img src="https://i.imgur.com/tK0EHQk.png">
 
 # Known issue
 1. Events with " in name not parsed
