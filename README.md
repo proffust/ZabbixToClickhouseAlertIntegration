@@ -54,9 +54,9 @@ Actions text:
 
 <br>Screenshots
 
-![Media type](https://github.com/proffust/ZabbixToClickhouseAlertIntegration/blob/master/DeepinScreenshot_select-area_20191023185348.png)
-![Action1](https://github.com/proffust/ZabbixToClickhouseAlertIntegration/blob/master/DeepinScreenshot_select-area_20191023185305.png)
-![Action2](https://github.com/proffust/ZabbixToClickhouseAlertIntegration/blob/master/DeepinScreenshot_select-area_20191023185252.png)
+![Media type](https://imgur.com/tK0EHQk)
+![Action problem](https://imgur.com/7aA1TSt)
+![Action resolved](https://imgur.com/XmBfgw6)
 
 # Known issue
 1. Events with " in name not parsed
