@@ -36,7 +36,8 @@ Actions text:
 <br>Subject
 ```{EVENT.VALUE}```
 <br>Message:
-```{
+```
+{
 "datetime":"{EVENT.DATE} {EVENT.TIME}",
 "eventid":{EVENT.ID},
 "name":"{EVENT.NAME}",
@@ -51,7 +52,8 @@ Actions text:
 <br>Subject
 ```{EVENT.VALUE}```
 <br>Message:
-```{
+```
+{
 "recoverydatetime":"{EVENT.RECOVERY.DATE} {EVENT.RECOVERY.TIME}",
 "eventid":{EVENT.ID},
 "startdatetime":"{EVENT.DATE} {EVENT.TIME}",
