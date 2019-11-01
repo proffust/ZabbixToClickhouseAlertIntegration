@@ -12,7 +12,8 @@ CREATE TABLE zabbix.events
     `Hosts` Array(String), 
     `Groups` Array(String), 
     `Tags` Array(String), 
-    `Source` String
+    `Source` String,
+    `Severity` String
 )
 ENGINE = ReplacingMergeTree(RecoveryClock)
 PARTITION BY toISOWeek(Date)
