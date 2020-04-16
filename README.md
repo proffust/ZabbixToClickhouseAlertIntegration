@@ -53,5 +53,3 @@ Actions text:
 <img src="https://i.imgur.com/5RkArZl.png">
 <img src="https://i.imgur.com/tK0EHQk.png">
 
-# Known issue
-1. Events with " in name not parsed
