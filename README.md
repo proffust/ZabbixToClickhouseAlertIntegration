@@ -49,8 +49,8 @@ Actions text:
 ```
 
 <br>Screenshots<br>
-<img src="https://i.imgur.com/XmBfgw6.png">
-<img src="https://i.imgur.com/7aA1TSt.png">
+<img src="https://i.imgur.com/6b5oNHm.png">
+<img src="https://i.imgur.com/5RkArZl.png">
 <img src="https://i.imgur.com/tK0EHQk.png">
 
 # Known issue
