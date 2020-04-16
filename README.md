@@ -12,7 +12,8 @@ CREATE TABLE zabbix.events
     `Hosts` Array(String), 
     `Groups` Array(String), 
     `Tags` Array(String), 
-    `Source` String
+    `Source` String,
+    `Severity` String
 )
 ENGINE = ReplacingMergeTree(RecoveryClock)
 PARTITION BY toISOWeek(Date)
@@ -36,7 +37,8 @@ Actions text:
 <br>Subject
 ```{EVENT.VALUE}```
 <br>Message:
-```{
+```
+{
 "datetime":"{EVENT.DATE} {EVENT.TIME}",
 "eventid":{EVENT.ID},
 "name":"{EVENT.NAME}",
@@ -51,7 +53,8 @@ Actions text:
 <br>Subject
 ```{EVENT.VALUE}```
 <br>Message:
-```{
+```
+{
 "recoverydatetime":"{EVENT.RECOVERY.DATE} {EVENT.RECOVERY.TIME}",
 "eventid":{EVENT.ID},
 "startdatetime":"{EVENT.DATE} {EVENT.TIME}",
